@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>半枝</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/themes/buble.css">
+</head>
+<body>
+  <nav id="nav">
+    <link v-if="dark" rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/themes/dark.min.css">
+    <a @click="reTheme" href="javascript:void(0)">{{dark?'light':'dark'}}</a>
+  </nav>
+  <div id="app">加载中...</div>
+
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/docsify.min.js"></script>
+  <script>
+    window.$docsify = {
+      name: 'docsify',
+      repo: '',
+      logo: '/favicon.ico',
+      themeColor: '#0177D7',
+      // repo: 'https://github.com/ruanyf/es6tutorial',
+      // basePath: 'https://github.com/ruanyf/es6tutorial/',
+      // routerMode: 'history', 
+      // coverpage: true,
+
+      loadSidebar: true,
+      // alias: {
+      //   '/.*/_sidebar.md': '/_sidebar.md'
+      // },
+      subMaxLevel: 2,
+
+      /* Markdown 配置 */
+      markdown: {
+        smartypants: true,
+        // renderer: {
+        //   link: function() {
+        //     // ...
+        //   }
+        // }
+      },
+
+      /* countable.js 字数统计 */
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      }
+    }
+
+    // pwa
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/plugins/search.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.12.2/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify-copy-code/2.1.1/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/countable/3.0.1/Countable.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.31/vue.global.prod.min.js"></script>
+  <script>
+    const Nav = {
+      data() {
+        return {
+          dark: false
+        }
+      },
+      mounted(){
+        
+        try {
+          this.dark = localStorage.theme=='dark'
+        } catch (error) {
+          console.log(error)
+        }
+      },
+      methods:{
+        reTheme(){
+          this.dark = !this.dark
+          localStorage.theme = this.dark?'dark':'light'
+        }
+      }
+    }
+    Vue.createApp(Nav).mount('#nav')
+  </script>
+</body>
+</html>

@@ -1,14 +1,4 @@
 
-<p align="center">
-<img width="300px"  style="max-width:300px; width:300px;" src="https://static.vue-js.com/21494410-8e11-11eb-ab90-d9ae814b240d.png"/>
-</p>
-<p align="center">
-  <a href="https://github.com/febobo/web-interview/stargazers"><img src="https://img.shields.io/redmine/plugin/stars/redmine_xlsx_format_issue_exporter.svg" alt="Statr"></a>
-<a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=vue" alt="vue"></a>
-<a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=es6" alt="es6"></a>
-  <a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=css" alt="css"></a>
-  <a href="https://github.com/febobo/web-interview/issues"><img src="https://img.shields.io/github/languages/top/badges/shields.svg?label=javascript" alt="javascript"></a>
-</p>
 
 本仓库为语音打卡社群(JS每日一题)维护的前端面试题库，包含不限于Vue面试题，React面试题，JS面试题，HTTP面试题，工程化面试题，CSS面试题，算法面试题，大厂面试题，高频面试题
 
@@ -16,10 +6,10 @@
 
 避免失联可以先点star
 
-PS: 仓库每周一更，想要及时收到推送，交流想法的同学，可以点击[@公众号:JS每日一题](https://static.vue-js.com/b4b71a30-443b-11eb-85f6-6fac77c0c9b3.png)关注我们
+PS: 仓库每周一更，想要及时收到推送，交流想法的同学，可以点击[@公众号:JS每日一题]关注我们
 
 ##  🤠 为什么要做这样的一个仓库
-最开始是没有想要弄仓库的，我们通过微信群语音的形式进行每天一次的打卡，次日再通过[公众号](https://static.vue-js.com/b4b71a30-443b-11eb-85f6-6fac77c0c9b3.png)图文形式的题解推送至群内供大家复盘总结
+最开始是没有想要弄仓库的，我们通过微信群语音的形式进行每天一次的打卡，次日再通过[公众号]图文形式的题解推送至群内供大家复盘总结
 
 随着时间的推移，题也积累的越来越多，再去通过公众号检索信息效率会明显降低
 
@@ -45,21 +35,9 @@ PS: 仓库每周一更，想要及时收到推送，交流想法的同学，可�
 
 在过程中看清自已，在结果中遇见自己，我们都值得有更美好的未来
 
-再晒晒平常我们的样子
 
-<p>
-<img width="600px"  style="max-width:600px; width:600px;" src="https://user-images.githubusercontent.com/9276376/102876713-90c0f700-4480-11eb-880f-613f8f0f5042.png"/>
-</p>
-
-如果看到这里你也有兴趣，欢迎扫描下方二维码加入我们，持续成长
-
-<p>
-  <img  width="200px" style="max-width:200px; width:200px; height: 200px" src="https://static.vue-js.com/b4b71a30-443b-11eb-85f6-6fac77c0c9b3.png"/>
-</p>
 
 ## 🤡 内容
-
-点击[@公众号:JS每日一题](https://static.vue-js.com/b4b71a30-443b-11eb-85f6-6fac77c0c9b3.png)扫码关注，跟踪我们最新动态
 
 
 <h3 style="text-align: center" align="center">Vue系列</h3>
@@ -356,7 +334,3 @@ PS: 仓库每周一更，想要及时收到推送，交流想法的同学，可�
 
 - 添加本仓库地址可随意转载仓库内所有内容
 - 本仓库永不收取任何费用，现在不会，未来也不会，也不会授权任何人/机构进行收费
-
-<p align="center">
-<img width="300px"  style="max-width:300px; width:300px;" src="https://static.vue-js.com/21494410-8e11-11eb-ab90-d9ae814b240d.png"/>
-</p>
